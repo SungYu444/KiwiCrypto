@@ -1,5 +1,5 @@
-import React, { useState, useEffect, ReactNode, useRef } from 'react';
-import { CheckCircle, Star, X, ChevronRight, Play } from 'lucide-react';
+import React, { useState, useEffect, useRef, type ReactNode } from 'react';
+import { CheckCircle, Star, X, ChevronRight} from 'lucide-react';
 
 // --- ANIMATED SECTION COMPONENT ---
 interface FadeInSectionProps {
