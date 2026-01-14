@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // <--- Add this to the plugins list
   ],
+  base: '/',
 })
