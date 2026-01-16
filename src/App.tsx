@@ -177,7 +177,7 @@ const KiwiKryptoLanding = () => {
               <FadeInSection delay={1000}>
                 <div className="flex gap-12 border-t border-white/10 pt-8">
                   <div>
-                    <div className="text-4xl font-black mb-1 text-white">100+</div>
+                    <div className="text-4xl font-black mb-1 text-white">50+</div>
                     <div className="text-sm font-medium text-zinc-500 uppercase tracking-wide">Consultations</div>
                   </div>
                   <div>
@@ -363,7 +363,7 @@ const KiwiKryptoLanding = () => {
                   I built a full tutoring system that breaks crypto down in simple language for beginners. My approach is educational and personalized, and I focus on helping you understand the fundamentals, safety, mindset, risk management, and make informed decisions. Everyone I’ve worked with has walked away more confident and more prepared to invest safely.
                 </p>
                 <div className="pt-6 space-y-4">
-                  {['Certified Blockchain Professional', 'Active investor since 2019', '100+ successful consultations completed'].map((item, i) => (
+                  {['Certified Blockchain Professional', 'Active investor since 2019', '50+ successful consultations completed'].map((item, i) => (
                     <div key={i} className="flex items-center p-3 bg-white/5 rounded-lg border border-white/5">
                       <CheckCircle className="text-yellow-400 mr-3 flex-shrink-0" size={20} />
                       <span className="text-white font-medium">{item}</span>
